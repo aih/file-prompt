@@ -12,7 +12,7 @@ Install the required library: pip install anthropic
 Set your Anthropic API key as an environment variable: export ANTHROPIC_API_KEY='your-api-key-here'
 
 You can run the script like this:
-Copypython script_name.py input_file_or_directory output_directory "Your prompt here"
+python script_name.py input_file_or_directory output_directory "Your prompt here"
 For example:
-Copypython claude_summarizer.py /path/to/input /path/to/output "Summarize the contents of this file"
+python claude_summarizer.py /path/to/input /path/to/output "Summarize the contents of this file"
 This script provides a flexible solution that can handle both single files and entire directories. It also uses argparse for better command-line interaction.
